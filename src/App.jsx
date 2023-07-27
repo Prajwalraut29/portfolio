@@ -2,9 +2,9 @@ import React, { useState, useEffect } from 'react';
 import About from './components/About';
 import Footer from './components/Footer';
 import HeroSection from './components/HeroSection';
-import Services from './components/Services';
 import Works from './components/Works';
 import Experience from './components/Experience';
+import Myintrest from './components/Myintrest';
 function App() {
 	const [theme, setTheme] = useState(null);
 
@@ -40,7 +40,7 @@ function App() {
 			<div className="bg-white dark:bg-slate-900 min-h-screen font-inter ">
 				<div className="max-w-5xl w-11/12 mx-auto">
 					<HeroSection />
-					<Services />
+					<Myintrest/>
 					<Works/>
 					<Experience/>
 					<About />
