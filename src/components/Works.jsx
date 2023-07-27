@@ -1,5 +1,5 @@
 import React from "react";
-import p1 from "../assets/project1.png";
+import pro1 from "../assets/project1.png";
 import p2 from "../assets/project2.png";
 import p3 from "../assets/project3.png";
 import p4 from "../assets/project4.png";
@@ -19,7 +19,7 @@ function Works() {
             <div class="inline-block px-2 py-1 bg-slate-200 dark:bg-slate-900 rounded-md">
               <img
                 className="w-full h-36 md:h-48 object-cover"
-                src={p1}
+                src={pro1}
                 alt=""
               />
               <div className="w-full p-5 text-gray-600 dark:text-gray-300">
